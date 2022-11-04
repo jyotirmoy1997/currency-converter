@@ -1,8 +1,10 @@
 body {
   margin: 0;
-  /* background-color: cornflowerblue; */
   background-image: url(assets/background3.jpg);
-  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+  overflow: hidden;
 }

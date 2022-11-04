@@ -918,28 +918,10 @@
         "CountryName": "Cameroon"
     },
     {
-        "id": 159,
-        "CurrencyName": "Silver (one troy Ounce)",
-        "CurrencyCode": "XAG",
-        "CountryName": ""
-    },
-    {
-        "id": 160,
-        "CurrencyName": "Gold (one troy Ounce)",
-        "CurrencyCode": "XAU",
-        "CountryName": ""
-    },
-    {
         "id": 165,
         "CurrencyName": "East Caribbean Dollar",
         "CurrencyCode": "XCD",
         "CountryName": "Anguilla"
-    },
-    {
-        "id": 166,
-        "CurrencyName": "Special drawing Rights",
-        "CurrencyCode": "XDR",
-        "CountryName": "International Monetary Fund"
     },
     {
         "id": 167,
@@ -948,22 +930,10 @@
         "CountryName": "Benin"
     },
     {
-        "id": 168,
-        "CurrencyName": "Palladium (one troy Ounce)",
-        "CurrencyCode": "XPD",
-        "CountryName": ""
-    },
-    {
         "id": 169,
         "CurrencyName": "CFP franc (franc Pacifique)",
         "CurrencyCode": "XPF",
         "CountryName": "French Polynesia"
-    },
-    {
-        "id": 170,
-        "CurrencyName": "Platinum (one troy Ounce)",
-        "CurrencyCode": "XPT",
-        "CountryName": ""
     },
     {
         "id": 173,

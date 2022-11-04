@@ -7,7 +7,8 @@ import Date from "../Date/date.component";
 
 import CURRENCY from '../../currency.json'
 
-const arrow_icon = require('../../assets/exchange3.png')
+const arrow_icon_1 = require('../../assets/exchange3.png')
+const arrow_icon_2 = require('../../assets/exchange3_2.png')
 
 
 const Converter = () => {
@@ -35,6 +36,7 @@ const Converter = () => {
     const [curr2, setCurr2] = useState(curr2_default)
     const [currencyNow, updatecurrencyNow] = useState({})
     const [date, updateDate] = useState("")
+    const [arrow_icon, setIcon] = useState(arrow_icon_1)
 
     const fetchData = async () => {
         const options = {
@@ -47,7 +49,6 @@ const Converter = () => {
         
         await fetch('https://currencyscoop.p.rapidapi.com/latest', options).then(response => response.json())
             .then((response) => {
-                // console.log(response)
                 updatecurrencyNow(response)
                 let dateNow = response.response.date
                 updateDate(dateNow);
@@ -57,22 +58,30 @@ const Converter = () => {
 
     useEffect(() => {
         fetchData()
+
         
     }, [])
 
-    // console.log(CURRENCY)
+    useEffect(() => {
+        window.addEventListener("resize", () => {
+            if(window.innerWidth <= 900){
+                setIcon(arrow_icon_2)
+            }
+            else if(window.innerWidth > 900){
+                setIcon(arrow_icon_1)
+            }
+        })
+    })
+
 
     setInterval(() => {
         fetchData()
     }, 600000);
 
-    // console.log(curr1, curr2)
+
 
     const onCurr1Change = (event) => {
-        // console.log(typeof event.toString())
         setCurr1(event)
-        // console.log(curr1.CurrencyName, curr2)
-
     }
     const onCurr2Change = (event) => {
         setCurr2(event)
@@ -81,17 +90,12 @@ const Converter = () => {
 
     const onChangeHandler1 = (event) => {
         setVal1(event.target.value)
-        // console.log(event.target.value)
         console.log(val1, val2)
         if(!isEmptyObject(currencyNow)){
-            // console.log(currencyNow.response.rates[CURRENCY_DATA[curr1.CurrencyName]])
             let curr1_val = currencyNow.response.rates[CURRENCY_DATA[curr1.CurrencyName]]
             let curr2_val = currencyNow.response.rates[CURRENCY_DATA[curr2.CurrencyName]]
-            
-            // console.log(typeof curr2_val)
             let curr2_converted = (curr2_val/curr1_val)*(+event.target.value)
             setVal2(curr2_converted)
-            // console.log(val2)
         }
     }
     const onChangeHandler2 = (event) => {
@@ -100,7 +104,6 @@ const Converter = () => {
         if(!isEmptyObject(currencyNow)){
             let curr1_val = currencyNow.response.rates[CURRENCY_DATA[curr1.CurrencyName]]
             let curr2_val = currencyNow.response.rates[CURRENCY_DATA[curr2.CurrencyName]]
-            // console.log(curr1_val, curr2_val)
             let curr1_converted = (curr1_val/curr2_val)*(+event.target.value)
             setVal1(curr1_converted)
         }
@@ -112,72 +115,69 @@ const Converter = () => {
         setVal2(val1)
     }
     return(
-        <div>
+        <div className="wrapper">
             <div className="converter">
+                    <DropdownList
+                        className="el1"
+                        value={curr1}
+                        data={CURRENCY}
+                        dataKey='id'
+                        textField='CurrencyName'
+                        renderListItem = {({item}) => 
+                        (<div>
+                            <img src={`https://countryflagsapi.com/png/${item.CountryName}`} 
+                                alt="" 
+                                srcset="" 
+                                height="20px" 
+                                width="30px" />
+                            <div>
+                                {item.CurrencyName}
+                            </div>
+                        </div>)}
+                        onChange={onCurr1Change}
+                    />
 
-            <DropdownList
-                className="el1"
-                // defaultValue={curr1}
-                value={curr1}
-                data={CURRENCY}
-                dataKey='id'
-                textField='CurrencyName'
-                renderListItem = {({item}) => 
-                (<div>
-                    <img src={`https://countryflagsapi.com/png/${item.CountryName}`} 
-                        alt="" 
-                        srcset="" 
-                        height="20px" 
-                        width="30px" />
-                    <div>
-                        {item.CurrencyName}
-                    </div>
-                </div>)}
-                onChange={onCurr1Change}
-            />
+                    <div className="el2"><img onClick={swap}  src={arrow_icon} alt="" srcset="" height="40px" width="40px"/></div>
+                    
 
-            <div className="el2"><img onClick={swap}  src={arrow_icon} alt="" srcset="" height="40px" width="40px"/></div>
-            
+                    <DropdownList
+                        className="el3"
+                        value={curr2}
+                        data={CURRENCY}
+                        dataKey='id'
+                        textField='CurrencyName'
+                        renderListItem = {({item}) => 
+                        (<div>
+                            <img src={`https://countryflagsapi.com/png/${item.CountryName}`} 
+                                alt="" 
+                                srcset="" 
+                                height="20px" 
+                                width="30px" />
+                            <div>
+                                {item.CurrencyName}
+                            </div>
+                        </div>)}
+                        onChange={onCurr2Change}
+                    />
+                
+                    <input 
+                    className="el4" 
+                    type="number" 
+                    name="" 
+                    id="val1" 
+                    onChange={onChangeHandler1} 
+                    value={val1} 
+                    placeholder="Enter Amount"/>
 
-            <DropdownList
-                className="el3"
-                // defaultValue={curr1}
-                value={curr2}
-                data={CURRENCY}
-                dataKey='id'
-                textField='CurrencyName'
-                renderListItem = {({item}) => 
-                (<div>
-                    <img src={`https://countryflagsapi.com/png/${item.CountryName}`} 
-                        alt="" 
-                        srcset="" 
-                        height="20px" 
-                        width="30px" />
-                    <div>
-                        {item.CurrencyName}
-                    </div>
-                </div>)}
-                onChange={onCurr2Change}
-            />
-
-            <input 
-            className="el4" 
-            type="number" 
-            name="" 
-            id="val1" 
-            onChange={onChangeHandler1} 
-            value={val1} 
-            placeholder="Enter Amount"/>
-
-            <input 
-            className="el5" 
-            type="number" 
-            name="" 
-            id="val2" 
-            onChange={onChangeHandler2} 
-            value={val2}
-            placeholder="Enter Amount"/>
-        </div>
+                    <input 
+                    className="el5" 
+                    type="number" 
+                    name="" 
+                    id="val2" 
+                    onChange={onChangeHandler2} 
+                    value={val2}
+                    placeholder="Enter Amount"/>
+            </div> 
         <Date className="el6" date={date}/>
     </div>
         
