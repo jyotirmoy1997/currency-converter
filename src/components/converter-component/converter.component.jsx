@@ -7,7 +7,7 @@ import Date from "../Date/date.component";
 
 import CURRENCY from '../../currency.json'
 
-const arrow_icon = require('../../assets/exchange.png')
+const arrow_icon = require('../../assets/exchange3.png')
 
 
 const Converter = () => {
@@ -81,12 +81,14 @@ const Converter = () => {
 
     const onChangeHandler1 = (event) => {
         setVal1(event.target.value)
-        // console.log(typeof event.target.value)
+        // console.log(event.target.value)
+        console.log(val1, val2)
         if(!isEmptyObject(currencyNow)){
             // console.log(currencyNow.response.rates[CURRENCY_DATA[curr1.CurrencyName]])
             let curr1_val = currencyNow.response.rates[CURRENCY_DATA[curr1.CurrencyName]]
             let curr2_val = currencyNow.response.rates[CURRENCY_DATA[curr2.CurrencyName]]
-            console.log(typeof curr2_val)
+            
+            // console.log(typeof curr2_val)
             let curr2_converted = (curr2_val/curr1_val)*(+event.target.value)
             setVal2(curr2_converted)
             // console.log(val2)
@@ -110,7 +112,8 @@ const Converter = () => {
         setVal2(val1)
     }
     return(
-        <div className="converter">
+        <div>
+            <div className="converter">
 
             <DropdownList
                 className="el1"
@@ -133,7 +136,8 @@ const Converter = () => {
                 onChange={onCurr1Change}
             />
 
-            <img onClick={swap} className="el2" src={arrow_icon} alt="" srcset="" height="20px" width="20px"/>
+            <div className="el2"><img onClick={swap}  src={arrow_icon} alt="" srcset="" height="40px" width="40px"/></div>
+            
 
             <DropdownList
                 className="el3"
@@ -173,9 +177,10 @@ const Converter = () => {
             onChange={onChangeHandler2} 
             value={val2}
             placeholder="Enter Amount"/>
-
-            <Date className="el6" date={date}/>
         </div>
+        <Date className="el6" date={date}/>
+    </div>
+        
     )
 }
 export default Converter;

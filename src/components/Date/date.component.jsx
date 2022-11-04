@@ -1,3 +1,5 @@
+import './date.component.css';
+
 const Date = ({date}) => {
     const dateNow = date.substring(0, 10)
     const time = date.substring(11, 19)
@@ -9,7 +11,7 @@ const Date = ({date}) => {
     }
     else{
         return(
-            <h5></h5>
+            <p></p>
         )
     }
     
