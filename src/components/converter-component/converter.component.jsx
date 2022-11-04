@@ -4,9 +4,26 @@ import "./converter.component.css"
 import CURRENCY_DATA from '../../currency-data.json'
 import { useState, useEffect } from "react";
 import Date from "../Date/date.component";
+
+import CURRENCY from '../../currency.json'
+
 const arrow_icon = require('../../assets/exchange.png')
 
+
 const Converter = () => {
+
+    const curr1_default = {
+            "id": 148,
+            "CurrencyName": "United States Dollar",
+            "CurrencyCode": "USD",
+            "CountryName": "United States"
+    }
+    const curr2_default = {
+        "id": 66,
+        "CurrencyName": "Indian Rupee",
+        "CurrencyCode": "INR",
+        "CountryName": "India"
+    }
 
     function isEmptyObject(obj){
         return JSON.stringify(obj) === '{}'
@@ -14,8 +31,8 @@ const Converter = () => {
 
     const [val1, setVal1] = useState()
     const [val2, setVal2] = useState()
-    const [curr1, setCurr1] = useState("United States Dollar")
-    const [curr2, setCurr2] = useState("Indian Rupee")
+    const [curr1, setCurr1] = useState(curr1_default)
+    const [curr2, setCurr2] = useState(curr2_default)
     const [currencyNow, updatecurrencyNow] = useState({})
     const [date, updateDate] = useState("")
 
@@ -43,15 +60,18 @@ const Converter = () => {
         
     }, [])
 
-    // console.log(date)
+    // console.log(CURRENCY)
 
     setInterval(() => {
         fetchData()
     }, 600000);
 
+    // console.log(curr1, curr2)
 
     const onCurr1Change = (event) => {
+        // console.log(typeof event.toString())
         setCurr1(event)
+        // console.log(curr1.CurrencyName, curr2)
 
     }
     const onCurr2Change = (event) => {
@@ -61,43 +81,79 @@ const Converter = () => {
 
     const onChangeHandler1 = (event) => {
         setVal1(event.target.value)
+        // console.log(typeof event.target.value)
         if(!isEmptyObject(currencyNow)){
-            let curr1_val = currencyNow.response.rates[CURRENCY_DATA[curr1]]
-            let curr2_val = currencyNow.response.rates[CURRENCY_DATA[curr2]]
+            // console.log(currencyNow.response.rates[CURRENCY_DATA[curr1.CurrencyName]])
+            let curr1_val = currencyNow.response.rates[CURRENCY_DATA[curr1.CurrencyName]]
+            let curr2_val = currencyNow.response.rates[CURRENCY_DATA[curr2.CurrencyName]]
+            console.log(typeof curr2_val)
             let curr2_converted = (curr2_val/curr1_val)*(+event.target.value)
             setVal2(curr2_converted)
+            // console.log(val2)
         }
     }
     const onChangeHandler2 = (event) => {
         setVal2(event.target.value)
         console.log(event.target.value)
         if(!isEmptyObject(currencyNow)){
-            let curr1_val = currencyNow.response.rates[CURRENCY_DATA[curr1]]
-            let curr2_val = currencyNow.response.rates[CURRENCY_DATA[curr2]]
+            let curr1_val = currencyNow.response.rates[CURRENCY_DATA[curr1.CurrencyName]]
+            let curr2_val = currencyNow.response.rates[CURRENCY_DATA[curr2.CurrencyName]]
+            // console.log(curr1_val, curr2_val)
             let curr1_converted = (curr1_val/curr2_val)*(+event.target.value)
             setVal1(curr1_converted)
         }
+    }
+    const swap = () => {
+        setCurr1(curr2)
+        setCurr2(curr1)
+        setVal1(val2)
+        setVal2(val1)
     }
     return(
         <div className="converter">
 
             <DropdownList
                 className="el1"
-                defaultValue={curr1}
+                // defaultValue={curr1}
                 value={curr1}
-                data={CURRENCY_DATA}
-                // renderListItem = {({item}) => (<span>{item}</span>)}
+                data={CURRENCY}
+                dataKey='id'
+                textField='CurrencyName'
+                renderListItem = {({item}) => 
+                (<div>
+                    <img src={`https://countryflagsapi.com/png/${item.CountryName}`} 
+                        alt="" 
+                        srcset="" 
+                        height="20px" 
+                        width="30px" />
+                    <div>
+                        {item.CurrencyName}
+                    </div>
+                </div>)}
                 onChange={onCurr1Change}
             />
 
-            <img className="el2" src={arrow_icon} alt="" srcset="" height="20px" width="20px"/>
+            <img onClick={swap} className="el2" src={arrow_icon} alt="" srcset="" height="20px" width="20px"/>
 
             <DropdownList
-            className="el3"
-            defaultValue={curr2}
-            value={curr2}
-            data={Object.keys(CURRENCY_DATA)}
-            onChange={onCurr2Change}
+                className="el3"
+                // defaultValue={curr1}
+                value={curr2}
+                data={CURRENCY}
+                dataKey='id'
+                textField='CurrencyName'
+                renderListItem = {({item}) => 
+                (<div>
+                    <img src={`https://countryflagsapi.com/png/${item.CountryName}`} 
+                        alt="" 
+                        srcset="" 
+                        height="20px" 
+                        width="30px" />
+                    <div>
+                        {item.CurrencyName}
+                    </div>
+                </div>)}
+                onChange={onCurr2Change}
             />
 
             <input 
