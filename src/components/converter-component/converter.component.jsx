@@ -42,8 +42,8 @@ const Converter = () => {
         const options = {
             method: 'GET',
             headers: {
-                'X-RapidAPI-Key': 'b880d2fb55mshb3ea1421ad36653p18ecafjsn9090079798ff',
-                'X-RapidAPI-Host': 'currencyscoop.p.rapidapi.com'
+                'X-RapidAPI-Key': process.env.REACT_APP_API_KEY,
+                'X-RapidAPI-Host': process.env.REACT_APP_API_HOST
             }
         };
         
@@ -58,7 +58,6 @@ const Converter = () => {
 
     useEffect(() => {
         fetchData()
-
         
     }, [])
 
@@ -90,7 +89,7 @@ const Converter = () => {
 
     const onChangeHandler1 = (event) => {
         setVal1(event.target.value)
-        console.log(val1, val2)
+        // console.log(val1, val2)
         if(!isEmptyObject(currencyNow)){
             let curr1_val = currencyNow.response.rates[CURRENCY_DATA[curr1.CurrencyName]]
             let curr2_val = currencyNow.response.rates[CURRENCY_DATA[curr2.CurrencyName]]
