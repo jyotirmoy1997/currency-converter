@@ -124,7 +124,8 @@ const Converter = () => {
                         textField='CurrencyName'
                         renderListItem = {({item}) => 
                         (<div>
-                            <img src={`https://countryflagsapi.com/png/${item.CountryName}`} 
+                            <img src={`https://countryflagsapi.com/png/${item.CountryName}`}
+                                crossorigin="anonymous"
                                 alt="" 
                                 srcset="" 
                                 height="20px" 
@@ -147,7 +148,8 @@ const Converter = () => {
                         textField='CurrencyName'
                         renderListItem = {({item}) => 
                         (<div>
-                            <img src={`https://countryflagsapi.com/png/${item.CountryName}`} 
+                            <img src={`https://countryflagsapi.com/png/${item.CountryName}`}
+                                crossorigin="anonymous" 
                                 alt="" 
                                 srcset="" 
                                 height="20px" 
