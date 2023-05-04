@@ -4,6 +4,7 @@ import "./converter.component.css"
 import CURRENCY_DATA from '../../currency-data.json'
 import { useState, useEffect } from "react";
 import Date from "../Date/date.component";
+import axios from "axios";
 
 import CURRENCY from '../../currency.json'
 
@@ -30,8 +31,8 @@ const Converter = () => {
         return JSON.stringify(obj) === '{}'
     }
 
-    const [val1, setVal1] = useState()
-    const [val2, setVal2] = useState()
+    const [val1, setVal1] = useState('')
+    const [val2, setVal2] = useState('')
     const [curr1, setCurr1] = useState(curr1_default)
     const [curr2, setCurr2] = useState(curr2_default)
     const [currencyNow, updatecurrencyNow] = useState({})
@@ -39,21 +40,24 @@ const Converter = () => {
     const [arrow_icon, setIcon] = useState(arrow_icon_1)
 
     const fetchData = async () => {
+
         const options = {
             method: 'GET',
+            url: 'https://exchangerate-api.p.rapidapi.com/rapid/latest/USD',
             headers: {
-                'X-RapidAPI-Key': process.env.REACT_APP_API_KEY,
-                'X-RapidAPI-Host': process.env.REACT_APP_API_HOST
+              'X-RapidAPI-Key': process.env.REACT_APP_API_KEY ,
+              'X-RapidAPI-Host': process.env.REACT_APP_API_HOST
             }
-        };
-        
-        await fetch('https://currencyscoop.p.rapidapi.com/latest', options).then(response => response.json())
-            .then((response) => {
-                updatecurrencyNow(response)
-                let dateNow = response.response.date
-                updateDate(dateNow);
-            })
-            .catch(err => console.error(err));
+          };
+          
+          try {
+              const response = await axios.request(options);
+              updatecurrencyNow(response.data.rates)
+              let dateNow = response.data.time_last_update_utc
+              updateDate(dateNow);
+          } catch (error) {
+              console.error(error);
+          }
     }
 
     useEffect(() => {
@@ -89,20 +93,18 @@ const Converter = () => {
 
     const onChangeHandler1 = (event) => {
         setVal1(event.target.value)
-        // console.log(val1, val2)
         if(!isEmptyObject(currencyNow)){
-            let curr1_val = currencyNow.response.rates[CURRENCY_DATA[curr1.CurrencyName]]
-            let curr2_val = currencyNow.response.rates[CURRENCY_DATA[curr2.CurrencyName]]
+            let curr1_val = currencyNow[CURRENCY_DATA[curr1.CurrencyName]]
+            let curr2_val = currencyNow[CURRENCY_DATA[curr2.CurrencyName]]
             let curr2_converted = (curr2_val/curr1_val)*(+event.target.value)
             setVal2(curr2_converted)
         }
     }
     const onChangeHandler2 = (event) => {
         setVal2(event.target.value)
-        console.log(event.target.value)
         if(!isEmptyObject(currencyNow)){
-            let curr1_val = currencyNow.response.rates[CURRENCY_DATA[curr1.CurrencyName]]
-            let curr2_val = currencyNow.response.rates[CURRENCY_DATA[curr2.CurrencyName]]
+            let curr1_val = currencyNow[CURRENCY_DATA[curr1.CurrencyName]]
+            let curr2_val = currencyNow[CURRENCY_DATA[curr2.CurrencyName]]
             let curr1_converted = (curr1_val/curr2_val)*(+event.target.value)
             setVal1(curr1_converted)
         }
@@ -124,12 +126,7 @@ const Converter = () => {
                         textField='CurrencyName'
                         renderListItem = {({item}) => 
                         (<div>
-                            <img src={`https://countryflagsapi.com/png/${item.CountryName}`}
-                                crossorigin="anonymous"
-                                alt="" 
-                                srcset="" 
-                                height="20px" 
-                                width="30px" />
+                            <img src={`https://flagsapi.com/${item.FlagCode}/flat/32.png`}/>
                             <div>
                                 {item.CurrencyName}
                             </div>
@@ -137,7 +134,7 @@ const Converter = () => {
                         onChange={onCurr1Change}
                     />
 
-                    <div className="el2"><img onClick={swap}  src={arrow_icon} alt="" srcset="" height="40px" width="40px"/></div>
+                    <div className="el2"><img onClick={swap}  src={arrow_icon} alt=""  height="40px" width="40px"/></div>
                     
 
                     <DropdownList
@@ -148,12 +145,7 @@ const Converter = () => {
                         textField='CurrencyName'
                         renderListItem = {({item}) => 
                         (<div>
-                            <img src={`https://countryflagsapi.com/png/${item.CountryName}`}
-                                crossorigin="anonymous" 
-                                alt="" 
-                                srcset="" 
-                                height="20px" 
-                                width="30px" />
+                            <img src={`https://flagsapi.com/${item.FlagCode}/flat/32.png`}/>
                             <div>
                                 {item.CurrencyName}
                             </div>

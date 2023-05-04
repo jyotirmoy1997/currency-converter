@@ -1,8 +1,8 @@
 import './date.component.css';
 
 const Date = ({date}) => {
-    const dateNow = date.substring(0, 10)
-    const time = date.substring(11, 19)
+    const dateNow = date.substring(0, 16)
+    const time = date.substring(16, 25)
     if(dateNow && time){
         return(
             <p>Last Updated: {time}, {dateNow} UTC</p>

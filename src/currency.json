@@ -3,960 +3,1078 @@
         "id": 0,
         "CurrencyName": "United Arab Emirates Dirham",
         "CurrencyCode": "AED",
-        "CountryName": "United Arab Emirates"
+        "CountryName": "United Arab Emirates",
+        "FlagCode" : "AE"
     },
     {
         "id": 1,
         "CurrencyName": "Afghan Afghani",
         "CurrencyCode": "AFN",
-        "CountryName": "Afghanistan"
+        "CountryName": "Afghanistan",
+        "FlagCode" : "AF"
     },
     {
         "id": 2,
         "CurrencyName": "Albanian Lek",
         "CurrencyCode": "ALL",
-        "CountryName": "Albania"
+        "CountryName": "Albania",
+        "FlagCode" : "AL"
     },
     {
         "id": 3,
         "CurrencyName": "Armenian Dram",
         "CurrencyCode": "AMD",
-        "CountryName": "Armenia"
+        "CountryName": "Armenia",
+        "FlagCode" : "AM"
     },
     {
         "id": 4,
         "CurrencyName": "Netherlands Antillean Guilder",
         "CurrencyCode": "ANG",
-        "CountryName": "Netherlands"
+        "CountryName": "Netherlands",
+        "FlagCode" : "NL"
     },
     {
         "id": 5,
         "CurrencyName": "Angolan Kwanza",
         "CurrencyCode": "AOA",
-        "CountryName": "Angola"
+        "CountryName": "Angola",
+        "FlagCode" : "AO"
     },
     {
         "id": 6,
         "CurrencyName": "Argentine Peso",
         "CurrencyCode": "ARS",
-        "CountryName": "Argentina"
+        "CountryName": "Argentina",
+        "FlagCode" : "AR"
     },
     {
         "id": 7,
         "CurrencyName": "Australian Dollar",
         "CurrencyCode": "AUD",
-        "CountryName": "Australia"
+        "CountryName": "Australia",
+        "FlagCode" : "AU"
     },
     {
         "id": 8,
         "CurrencyName": "Aruban Florin",
         "CurrencyCode": "AWG",
-        "CountryName": "Aruba"
+        "CountryName": "Aruba",
+        "FlagCode" : "AW"
     },
     {
         "id": 9,
         "CurrencyName": "Azerbaijani Manat",
         "CurrencyCode": "AZN",
-        "CountryName": "Azerbaijan"
+        "CountryName": "Azerbaijan",
+        "FlagCode" : "AZ"
     },
     {
         "id": 10,
         "CurrencyName": "Bosnia Convertible Mark",
         "CurrencyCode": "BAM",
-        "CountryName": "Bosnia and Herzegovina"
+        "CountryName": "Bosnia and Herzegovina",
+        "FlagCode" : "BA"
     },
     {
         "id": 11,
         "CurrencyName": "Barbados Dollar",
         "CurrencyCode": "BBD",
-        "CountryName": "Barbados"
+        "CountryName": "Barbados",
+        "FlagCode" : "BB"
     },
     {
         "id": 12,
         "CurrencyName": "Bangladeshi Taka",
         "CurrencyCode": "BDT",
-        "CountryName": "Bangladesh"
+        "CountryName": "Bangladesh",
+        "FlagCode" : "BD"
     },
     {
         "id": 13,
         "CurrencyName": "Bulgarian Lev",
         "CurrencyCode": "BGN",
-        "CountryName": "Bulgaria"
+        "CountryName": "Bulgaria",
+        "FlagCode" : "BG"
     },
     {
         "id": 14,
         "CurrencyName": "Bahraini Dinar",
         "CurrencyCode": "BHD",
-        "CountryName": "Bahrain"
+        "CountryName": "Bahrain",
+        "FlagCode" : "BH"
     },
     {
         "id": 15,
         "CurrencyName": "Burundian Franc",
         "CurrencyCode": "BIF",
-        "CountryName": "Burundi"
+        "CountryName": "Burundi",
+        "FlagCode" : "BI"
     },
     {
         "id": 16,
         "CurrencyName": "Bermudian Dollar",
         "CurrencyCode": "BMD",
-        "CountryName": "Bermuda"
+        "CountryName": "Bermuda",
+        "FlagCode" : "BM"
     },
     {
         "id": 17,
         "CurrencyName": "Brunei Dollar",
         "CurrencyCode": "BND",
-        "CountryName": "Brunei Darussalam"
+        "CountryName": "Brunei Darussalam",
+        "FlagCode" : "BN"
     },
     {
         "id": 18,
         "CurrencyName": "Boliviano",
         "CurrencyCode": "BOB",
-        "CountryName": "Bolivia"
-    },
-    {
-        "id": 19,
-        "CurrencyName": "Bolivian Mvdol",
-        "CurrencyCode": "BOV",
-        "CountryName": "Bolivia"
+        "CountryName": "Bolivia",
+        "FlagCode" : "BO"
     },
     {
         "id": 20,
         "CurrencyName": "Brazilian Real",
         "CurrencyCode": "BRL",
-        "CountryName": "Brazil"
+        "CountryName": "Brazil",
+        "FlagCode" : "BR"
     },
     {
         "id": 21,
         "CurrencyName": "Bahamian Dollar",
         "CurrencyCode": "BSD",
-        "CountryName": "The Bahamas"
+        "CountryName": "The Bahamas",
+        "FlagCode" : "BS"
     },
     {
         "id": 22,
         "CurrencyName": "Bhutanese Ngultrum",
         "CurrencyCode": "BTN",
-        "CountryName": "Bhutan"
+        "CountryName": "Bhutan",
+        "FlagCode" : "BT"
     },
     {
         "id": 23,
         "CurrencyName": "Botswana Pula",
         "CurrencyCode": "BWP",
-        "CountryName": "Botswana"
+        "CountryName": "Botswana",
+        "FlagCode" : "BW"
     },
     {
         "id": 24,
         "CurrencyName": "Belarusian Ruble",
         "CurrencyCode": "BYN",
-        "CountryName": "Belarus"
+        "CountryName": "Belarus",
+        "FlagCode" : "BY"
     },
     {
         "id": 25,
         "CurrencyName": "Belize Dollar",
         "CurrencyCode": "BZD",
-        "CountryName": "Belize"
+        "CountryName": "Belize",
+        "FlagCode" : "BZ"
     },
     {
         "id": 26,
         "CurrencyName": "Canadian Dollar",
         "CurrencyCode": "CAD",
-        "CountryName": "Canada"
+        "CountryName": "Canada",
+        "FlagCode" : "CA"
     },
     {
         "id": 27,
         "CurrencyName": "Congolese Franc",
         "CurrencyCode": "CDF",
-        "CountryName": "Democratic Republic of Congo"
+        "CountryName": "Democratic Republic of Congo",
+        "FlagCode" : "CD"
     },
     {
         "id": 29,
         "CurrencyName": "Swiss Franc",
         "CurrencyCode": "CHF",
-        "CountryName": "Switzerland"
-    },
-    {
-        "id": 31,
-        "CurrencyName": "Unidad de Fomento",
-        "CurrencyCode": "CLF",
-        "CountryName": "Chile"
+        "CountryName": "Switzerland",
+        "FlagCode" : "CH"
     },
     {
         "id": 32,
         "CurrencyName": "Chilean Peso",
         "CurrencyCode": "CLP",
-        "CountryName": "Chile"
+        "CountryName": "Chile",
+        "FlagCode" : "CL"
     },
     {
         "id": 33,
         "CurrencyName": "Chinese Yuan",
         "CurrencyCode": "CNY",
-        "CountryName": "China"
+        "CountryName": "China",
+        "FlagCode" : "CN"
     },
     {
         "id": 34,
         "CurrencyName": "Colombian Peso",
         "CurrencyCode": "COP",
-        "CountryName": "Colombia"
-    },
-    {
-        "id": 35,
-        "CurrencyName": "Unidad de Valor Real (UVR) ",
-        "CurrencyCode": "COU",
-        "CountryName": "Colombia"
+        "CountryName": "Colombia",
+        "FlagCode" : "CO"
     },
     {
         "id": 36,
         "CurrencyName": "Costa Rican Colon",
         "CurrencyCode": "CRC",
-        "CountryName": "Costa Rica"
-    },
-    {
-        "id": 37,
-        "CurrencyName": "Cuban convertible Peso",
-        "CurrencyCode": "CUC",
-        "CountryName": "Cuba"
+        "CountryName": "Costa Rica",
+        "FlagCode" : "CR"
     },
     {
         "id": 38,
         "CurrencyName": "Cuban Peso",
         "CurrencyCode": "CUP",
-        "CountryName": "Cuba"
+        "CountryName": "Cuba",
+        "FlagCode" : "CU"
     },
     {
         "id": 39,
         "CurrencyName": "Cape Verdean Escudo",
         "CurrencyCode": "CVE",
-        "CountryName": "Cabo Verde"
+        "CountryName": "Cabo Verde",
+        "FlagCode" : "CV"
     },
     {
         "id": 40,
         "CurrencyName": "Czech Koruna",
         "CurrencyCode": "CZK",
-        "CountryName": "Czechia"
+        "CountryName": "Czechia",
+        "FlagCode" : "CZ"
     },
     {
         "id": 41,
         "CurrencyName": "Djiboutian Franc",
         "CurrencyCode": "DJF",
-        "CountryName": "Djibouti"
+        "CountryName": "Djibouti",
+        "FlagCode" : "DJ"
     },
     {
         "id": 42,
         "CurrencyName": "Danish Krone",
         "CurrencyCode": "DKK",
-        "CountryName": "Denmark"
+        "CountryName": "Denmark",
+        "FlagCode" : "DK"
     },
     {
         "id": 43,
         "CurrencyName": "Dominican Peso",
         "CurrencyCode": "DOP",
-        "CountryName": "Dominican Republic"
+        "CountryName": "Dominican Republic",
+        "FlagCode" : "DO"
     },
     {
         "id": 44,
         "CurrencyName": "Algerian Dinar",
         "CurrencyCode": "DZD",
-        "CountryName": "Algeria"
+        "CountryName": "Algeria",
+        "FlagCode" : "DZ"
     },
     {
         "id": 45,
         "CurrencyName": "Egyptian Pound",
         "CurrencyCode": "EGP",
-        "CountryName": "Egypt"
+        "CountryName": "Egypt",
+        "FlagCode" : "EG"
     },
     {
         "id": 46,
         "CurrencyName": "Eritrean Nakfa",
         "CurrencyCode": "ERN",
-        "CountryName": "Eritrea"
+        "CountryName": "Eritrea",
+        "FlagCode" : "ER"
     },
     {
         "id": 47,
         "CurrencyName": "Ethiopian Birr",
         "CurrencyCode": "ETB",
-        "CountryName": "Ethiopia"
+        "CountryName": "Ethiopia",
+        "FlagCode" : "ET"
     },
     {
         "id": 48,
         "CurrencyName": "Euro",
         "CurrencyCode": "EUR",
-        "CountryName": "European Union"
+        "CountryName": "European Union",
+        "FlagCode" : "EG"
     },
     {
         "id": 49,
         "CurrencyName": "Fiji Dollar",
         "CurrencyCode": "FJD",
-        "CountryName": "Fiji"
+        "CountryName": "Fiji",
+        "FlagCode" : "FJ"
     },
     {
         "id": 50,
         "CurrencyName": "Falkland Islands Pound",
         "CurrencyCode": "FKP",
-        "CountryName": "The Falkland Islands"
+        "CountryName": "The Falkland Islands",
+        "FlagCode" : "FL"
     },
     {
         "id": 51,
         "CurrencyName": "Pound Sterling",
         "CurrencyCode": "GBP",
-        "CountryName": "United Kingdom"
+        "CountryName": "United Kingdom",
+        "FlagCode" : "GB"
     },
     {
         "id": 52,
         "CurrencyName": "Georgian Lari",
         "CurrencyCode": "GEL",
-        "CountryName": "Georgia"
+        "CountryName": "Georgia",
+        "FlagCode" : "GE"
     },
     {
         "id": 53,
         "CurrencyName": "Ghanaian Cedi",
         "CurrencyCode": "GHS",
-        "CountryName": "Ghana"
+        "CountryName": "Ghana",
+        "FlagCode" : "GH"
     },
     {
         "id": 54,
         "CurrencyName": "Gibraltar Pound",
         "CurrencyCode": "GIP",
-        "CountryName": "Gibraltar"
+        "CountryName": "Gibraltar",
+        "FlagCode" : "GI"
     },
     {
         "id": 55,
         "CurrencyName": "Gambian Dalasi",
         "CurrencyCode": "GMD",
-        "CountryName": "Gambia"
+        "CountryName": "Gambia",
+        "FlagCode" : "GM"
     },
     {
         "id": 56,
         "CurrencyName": "Guinean Franc",
         "CurrencyCode": "GNF",
-        "CountryName": "Guinea"
+        "CountryName": "Guinea",
+        "FlagCode" : "GN"
     },
     {
         "id": 57,
         "CurrencyName": "Guatemalan Quetzal",
         "CurrencyCode": "GTQ",
-        "CountryName": "Guatemala"
+        "CountryName": "Guatemala",
+        "FlagCode" : "GT"
     },
     {
         "id": 58,
         "CurrencyName": "Guyanese Dollar",
         "CurrencyCode": "GYD",
-        "CountryName": "Guyana"
+        "CountryName": "Guyana",
+        "FlagCode" : "GY"
     },
     {
         "id": 59,
         "CurrencyName": "Hong Kong Dollar",
         "CurrencyCode": "HKD",
-        "CountryName": "Hong Kong"
+        "CountryName": "Hong Kong",
+        "FlagCode" : "HK"
     },
     {
         "id": 60,
         "CurrencyName": "Honduran Lempira",
         "CurrencyCode": "HNL",
-        "CountryName": "Honduras"
+        "CountryName": "Honduras",
+        "FlagCode" : "HN"
     },
     {
         "id": 61,
         "CurrencyName": "Croatian Kuna",
         "CurrencyCode": "HRK",
-        "CountryName": "Croatia"
+        "CountryName": "Croatia",
+        "FlagCode" : "HR"
     },
     {
         "id": 62,
         "CurrencyName": "Haitian Gourde",
         "CurrencyCode": "HTG",
-        "CountryName": "Haiti"
+        "CountryName": "Haiti",
+        "FlagCode" : "HT"
     },
     {
         "id": 63,
         "CurrencyName": "Hungarian Forint",
         "CurrencyCode": "HUF",
-        "CountryName": "Hungary"
+        "CountryName": "Hungary",
+        "FlagCode" : "HU"
     },
     {
         "id": 64,
         "CurrencyName": "Indonesian Rupiah",
         "CurrencyCode": "IDR",
-        "CountryName": "Indonesia"
+        "CountryName": "Indonesia",
+        "FlagCode" : "ID"
     },
     {
         "id": 65,
         "CurrencyName": "Israeli new Shekel",
         "CurrencyCode": "ILS",
-        "CountryName": "Israel"
+        "CountryName": "Israel",
+        "FlagCode" : "IL"
     },
     {
         "id": 66,
         "CurrencyName": "Indian Rupee",
         "CurrencyCode": "INR",
-        "CountryName": "India"
+        "CountryName": "India",
+        "FlagCode" : "IN"
     },
     {
         "id": 67,
         "CurrencyName": "Iraqi Dinar",
         "CurrencyCode": "IQD",
-        "CountryName": "Iraq"
+        "CountryName": "Iraq",
+        "FlagCode" : "IQ"
     },
     {
         "id": 68,
         "CurrencyName": "Iranian Rial",
         "CurrencyCode": "IRR",
-        "CountryName": "Iran"
+        "CountryName": "Iran",
+        "FlagCode" : "IR"
     },
     {
         "id": 69,
         "CurrencyName": "Icelandic Króna",
         "CurrencyCode": "ISK",
-        "CountryName": "Iceland"
+        "CountryName": "Iceland",
+        "FlagCode" : "IS"
     },
     {
         "id": 70,
         "CurrencyName": "Jamaican Dollar",
         "CurrencyCode": "JMD",
-        "CountryName": "Jamaica"
+        "CountryName": "Jamaica",
+        "FlagCode" : "JM"
     },
     {
         "id": 71,
         "CurrencyName": "Jordanian Dinar",
         "CurrencyCode": "JOD",
-        "CountryName": "Jordan"
+        "CountryName": "Jordan",
+        "FlagCode" : "JO"
     },
     {
         "id": 72,
         "CurrencyName": "Japanese Yen",
         "CurrencyCode": "JPY",
-        "CountryName": "Japan"
+        "CountryName": "Japan",
+        "FlagCode" : "JP"
     },
     {
         "id": 73,
         "CurrencyName": "Kenyan Shilling",
         "CurrencyCode": "KES",
-        "CountryName": "Kenya"
+        "CountryName": "Kenya",
+        "FlagCode" : "KE"
     },
     {
         "id": 74,
         "CurrencyName": "Kyrgyzstani Som",
         "CurrencyCode": "KGS",
-        "CountryName": "Kyrgyzstan"
+        "CountryName": "Kyrgyzstan",
+        "FlagCode" : "KG"
     },
     {
         "id": 75,
         "CurrencyName": "Cambodian Riel",
         "CurrencyCode": "KHR",
-        "CountryName": "Cambodia"
+        "CountryName": "Cambodia",
+        "FlagCode" : "KH"
     },
     {
         "id": 76,
         "CurrencyName": "Comoro Franc",
         "CurrencyCode": "KMF",
-        "CountryName": "The Comoros"
-    },
-    {
-        "id": 77,
-        "CurrencyName": "North Korean Won",
-        "CurrencyCode": "KPW",
-        "CountryName": "North Korea"
+        "CountryName": "The Comoros",
+        "FlagCode" : "KM"
     },
     {
         "id": 78,
         "CurrencyName": "South Korean Won",
         "CurrencyCode": "KRW",
-        "CountryName": "The Republic Of Korea"
+        "CountryName": "The Republic Of Korea",
+        "FlagCode" : "KR"
     },
     {
         "id": 79,
         "CurrencyName": "Kuwaiti Dinar",
         "CurrencyCode": "KWD",
-        "CountryName": "Kuwait"
+        "CountryName": "Kuwait",
+        "FlagCode" : "KW"
     },
     {
         "id": 80,
         "CurrencyName": "Cayman Islands Dollar",
         "CurrencyCode": "KYD",
-        "CountryName": "The Cayman Islands"
+        "CountryName": "The Cayman Islands",
+        "FlagCode" : "KY"
     },
     {
         "id": 81,
         "CurrencyName": "Kazakhstani Tenge",
         "CurrencyCode": "KZT",
-        "CountryName": "Kazakhstan"
+        "CountryName": "Kazakhstan",
+        "FlagCode" : "KZ"
     },
     {
         "id": 82,
         "CurrencyName": "Lao Kip",
         "CurrencyCode": "LAK",
-        "CountryName": "Laos"
+        "CountryName": "Laos",
+        "FlagCode" : "LA"
     },
     {
         "id": 83,
         "CurrencyName": "Lebanese Pound",
         "CurrencyCode": "LBP",
-        "CountryName": "Lebanon"
+        "CountryName": "Lebanon",
+        "FlagCode" : "LB"
     },
     {
         "id": 84,
         "CurrencyName": "Sri Lankan Rupee",
         "CurrencyCode": "LKR",
-        "CountryName": "Sri Lanka"
+        "CountryName": "Sri Lanka",
+        "FlagCode" : "LK"
     },
     {
         "id": 85,
         "CurrencyName": "Liberian Dollar",
         "CurrencyCode": "LRD",
-        "CountryName": "Liberia"
+        "CountryName": "Liberia",
+        "FlagCode" : "LR"
     },
     {
         "id": 86,
         "CurrencyName": "Lesotho Loti",
         "CurrencyCode": "LSL",
-        "CountryName": "Lesotho"
+        "CountryName": "Lesotho",
+        "FlagCode" : "LS"
     },
     {
         "id": 87,
         "CurrencyName": "Libyan Dinar",
         "CurrencyCode": "LYD",
-        "CountryName": "Libya"
+        "CountryName": "Libya",
+        "FlagCode" : "LY"
     },
     {
         "id": 88,
         "CurrencyName": "Moroccan Dirham",
         "CurrencyCode": "MAD",
-        "CountryName": "Morocco"
+        "CountryName": "Morocco",
+        "FlagCode" : "MA"
     },
     {
         "id": 89,
         "CurrencyName": "Moldovan Leu",
         "CurrencyCode": "MDL",
-        "CountryName": "Moldova"
+        "CountryName": "Moldova",
+        "FlagCode" : "MD"
     },
     {
         "id": 90,
         "CurrencyName": "Malagasy Ariary",
         "CurrencyCode": "MGA",
-        "CountryName": "Madagascar"
+        "CountryName": "Madagascar",
+        "FlagCode" : "MG"
     },
     {
         "id": 91,
         "CurrencyName": "Macedonian Denar",
         "CurrencyCode": "MKD",
-        "CountryName": "Republic Of North Macedonia"
+        "CountryName": "Republic Of North Macedonia",
+        "FlagCode" : "MK"
     },
     {
         "id": 92,
         "CurrencyName": "Myanmar Kyat",
         "CurrencyCode": "MMK",
-        "CountryName": "Myanmar"
+        "CountryName": "Myanmar",
+        "FlagCode" : "MM"
     },
     {
         "id": 93,
         "CurrencyName": "Mongolian Tögrög",
         "CurrencyCode": "MNT",
-        "CountryName": "Mongolia"
+        "CountryName": "Mongolia",
+        "FlagCode" : "MN"
     },
     {
         "id": 94,
         "CurrencyName": "Macanese Pataca",
         "CurrencyCode": "MOP",
-        "CountryName": "Macao"
+        "CountryName": "Macao",
+        "FlagCode" : "MO"
     },
     {
         "id": 95,
         "CurrencyName": "Mauritanian Ouguiya",
         "CurrencyCode": "MRU",
-        "CountryName": "Mauritania"
+        "CountryName": "Mauritania",
+        "FlagCode" : "MR"
     },
     {
         "id": 96,
         "CurrencyName": "Mauritian Rupee",
         "CurrencyCode": "MUR",
-        "CountryName": "Mauritius"
+        "CountryName": "Mauritius",
+        "FlagCode" : "MU"
     },
     {
         "id": 97,
         "CurrencyName": "Maldivian Rufiyaa",
         "CurrencyCode": "MVR",
-        "CountryName": "Maldives"
+        "CountryName": "Maldives",
+        "FlagCode" : "MV"
     },
     {
         "id": 98,
         "CurrencyName": "Malawian Kwacha",
         "CurrencyCode": "MWK",
-        "CountryName": "Malawi"
+        "CountryName": "Malawi",
+        "FlagCode" : "MW"
     },
     {
         "id": 99,
         "CurrencyName": "Mexican Peso",
         "CurrencyCode": "MXN",
-        "CountryName": "Mexico"
+        "CountryName": "Mexico",
+        "FlagCode" : "MX"
     },
     {
         "id": 101,
         "CurrencyName": "Malaysian Ringgit",
         "CurrencyCode": "MYR",
-        "CountryName": "Malaysia"
+        "CountryName": "Malaysia",
+        "FlagCode" : "MY"
     },
     {
         "id": 102,
         "CurrencyName": "Mozambican Metical",
         "CurrencyCode": "MZN",
-        "CountryName": "Mozambique"
+        "CountryName": "Mozambique",
+        "FlagCode" : "MZ"
     },
     {
         "id": 103,
         "CurrencyName": "Namibian Dollar",
         "CurrencyCode": "NAD",
-        "CountryName": "Namibia"
+        "CountryName": "Namibia",
+        "FlagCode" : "NA"
     },
     {
         "id": 104,
         "CurrencyName": "Nigerian Naira",
         "CurrencyCode": "NGN",
-        "CountryName": "Nigeria"
+        "CountryName": "Nigeria",
+        "FlagCode" : "NG"
     },
     {
         "id": 105,
         "CurrencyName": "Nicaraguan Córdoba",
         "CurrencyCode": "NIO",
-        "CountryName": "Nicaragua"
+        "CountryName": "Nicaragua",
+        "FlagCode" : "NI"
     },
     {
         "id": 106,
         "CurrencyName": "Norwegian Krone",
         "CurrencyCode": "NOK",
-        "CountryName": "Norway"
+        "CountryName": "Norway",
+        "FlagCode" : "NO"
     },
     {
         "id": 107,
         "CurrencyName": "Nepalese Rupee",
         "CurrencyCode": "NPR",
-        "CountryName": "Nepal"
+        "CountryName": "Nepal",
+        "FlagCode" : "NP"
     },
     {
         "id": 108,
         "CurrencyName": "New Zealand Dollar",
         "CurrencyCode": "NZD",
-        "CountryName": "New Zealand"
+        "CountryName": "New Zealand",
+        "FlagCode" : "NZ"
     },
     {
         "id": 109,
         "CurrencyName": "Omani Rial",
         "CurrencyCode": "OMR",
-        "CountryName": "Oman"
+        "CountryName": "Oman",
+        "FlagCode" : "OM"
     },
     {
         "id": 110,
         "CurrencyName": "Panamanian Balboa",
         "CurrencyCode": "PAB",
-        "CountryName": "Panama"
+        "CountryName": "Panama",
+        "FlagCode" : "PA"
     },
     {
         "id": 111,
         "CurrencyName": "Peruvian Sol",
         "CurrencyCode": "PEN",
-        "CountryName": "Peru"
+        "CountryName": "Peru",
+        "FlagCode" : "PE"
     },
     {
         "id": 112,
         "CurrencyName": "Papua New Guinean Kina",
         "CurrencyCode": "PGK",
-        "CountryName": "Papua New Guinea"
+        "CountryName": "Papua New Guinea",
+        "FlagCode" : "PG"
     },
     {
         "id": 113,
         "CurrencyName": "Philippine Peso",
         "CurrencyCode": "PHP",
-        "CountryName": "Philippines"
+        "CountryName": "Philippines",
+        "FlagCode" : "PH"
     },
     {
         "id": 114,
         "CurrencyName": "Pakistani Rupee",
         "CurrencyCode": "PKR",
-        "CountryName": "Pakistan"
+        "CountryName": "Pakistan",
+        "FlagCode" : "PK"
     },
     {
         "id": 115,
         "CurrencyName": "Polish Złoty",
         "CurrencyCode": "PLN",
-        "CountryName": "Poland"
+        "CountryName": "Poland",
+        "FlagCode" : "PL"
     },
     {
         "id": 116,
         "CurrencyName": "Paraguayan Guaraní",
         "CurrencyCode": "PYG",
-        "CountryName": "Paraguay"
+        "CountryName": "Paraguay",
+        "FlagCode" : "PY"
     },
     {
         "id": 117,
         "CurrencyName": "Qatari Riyal",
         "CurrencyCode": "QAR",
-        "CountryName": "Qatar"
+        "CountryName": "Qatar",
+        "FlagCode" : "QA"
     },
     {
         "id": 118,
         "CurrencyName": "Romanian Leu",
         "CurrencyCode": "RON",
-        "CountryName": "Romania"
+        "CountryName": "Romania",
+        "FlagCode" : "RO"
     },
     {
         "id": 119,
         "CurrencyName": "Serbian Dinar",
         "CurrencyCode": "RSD",
-        "CountryName": "Serbia"
+        "CountryName": "Serbia",
+        "FlagCode" : "RS"
     },
     {
         "id": 120,
         "CurrencyName": "Russian Ruble",
         "CurrencyCode": "RUB",
-        "CountryName": "Russian Federation"
+        "CountryName": "Russian Federation",
+        "FlagCode" : "RU"
     },
     {
         "id": 121,
         "CurrencyName": "Rwandan Franc",
         "CurrencyCode": "RWF",
-        "CountryName": "Rwanda"
+        "CountryName": "Rwanda",
+        "FlagCode" : "RW"
     },
     {
         "id": 122,
         "CurrencyName": "Saudi Riyal",
         "CurrencyCode": "SAR",
-        "CountryName": "Saudi Arabia"
+        "CountryName": "Saudi Arabia",
+        "FlagCode" : "SA"
     },
     {
         "id": 123,
         "CurrencyName": "Solomon Islands Dollar",
         "CurrencyCode": "SBD",
-        "CountryName": "Solomon Islands"
+        "CountryName": "Solomon Islands",
+        "FlagCode" : "SB"
     },
     {
         "id": 124,
         "CurrencyName": "Seychelles Rupee",
         "CurrencyCode": "SCR",
-        "CountryName": "Seychelles"
+        "CountryName": "Seychelles",
+        "FlagCode" : "SC"
     },
     {
         "id": 125,
         "CurrencyName": "Sudanese Pound",
         "CurrencyCode": "SDG",
-        "CountryName": "Sudan"
+        "CountryName": "Sudan",
+        "FlagCode" : "SD"
     },
     {
         "id": 126,
         "CurrencyName": "Swedish Krona/kronor",
         "CurrencyCode": "SEK",
-        "CountryName": "Sweden"
+        "CountryName": "Sweden",
+        "FlagCode" : "SE"
     },
     {
         "id": 127,
         "CurrencyName": "Singapore Dollar",
         "CurrencyCode": "SGD",
-        "CountryName": "Singapore"
+        "CountryName": "Singapore",
+        "FlagCode" : "SG"
     },
     {
         "id": 128,
         "CurrencyName": "Saint Helena Pound",
         "CurrencyCode": "SHP",
-        "CountryName": "Saint Helena"
+        "CountryName": "Saint Helena",
+        "FlagCode" : "SH"
     },
     {
         "id": 129,
         "CurrencyName": "Sierra Leonean Leone",
         "CurrencyCode": "SLL",
-        "CountryName": "Sierra Leone"
+        "CountryName": "Sierra Leone",
+        "FlagCode" : "SL"
     },
     {
         "id": 130,
         "CurrencyName": "Somali Shilling",
         "CurrencyCode": "SOS",
-        "CountryName": "Somalia"
+        "CountryName": "Somalia",
+        "FlagCode" : "SO"
     },
     {
         "id": 131,
         "CurrencyName": "Surinamese Dollar",
         "CurrencyCode": "SRD",
-        "CountryName": "Suriname"
+        "CountryName": "Suriname",
+        "FlagCode" : "SR"
     },
     {
         "id": 132,
         "CurrencyName": "South Sudanese Pound",
         "CurrencyCode": "SSP",
-        "CountryName": "South Sudan"
+        "CountryName": "South Sudan",
+        "FlagCode" : "SS"
     },
     {
         "id": 133,
         "CurrencyName": "São Tomé and Príncipe Dobra",
         "CurrencyCode": "STN",
-        "CountryName": "Sao Tome And Principe"
-    },
-    {
-        "id": 134,
-        "CurrencyName": "Salvadoran Colón",
-        "CurrencyCode": "SVC",
-        "CountryName": "El Salvador"
+        "CountryName": "Sao Tome And Principe",
+        "FlagCode" : "ST"
     },
     {
         "id": 135,
         "CurrencyName": "Syrian Pound",
         "CurrencyCode": "SYP",
-        "CountryName": "Syrian Arab Republic"
+        "CountryName": "Syrian Arab Republic",
+        "FlagCode" : "SY"
     },
     {
         "id": 136,
         "CurrencyName": "Swazi Lilangeni",
         "CurrencyCode": "SZL",
-        "CountryName": "Eswatini"
+        "CountryName": "Eswatini",
+        "FlagCode" : "SZ"
     },
     {
         "id": 137,
         "CurrencyName": "Thai Baht",
         "CurrencyCode": "THB",
-        "CountryName": "Thailand"
+        "CountryName": "Thailand",
+        "FlagCode" : "TH"
     },
     {
         "id": 138,
         "CurrencyName": "Tajikistani Somoni",
         "CurrencyCode": "TJS",
-        "CountryName": "Tajikistan"
+        "CountryName": "Tajikistan",
+        "FlagCode" : "TJ"
     },
     {
         "id": 139,
         "CurrencyName": "Turkmenistan Manat",
         "CurrencyCode": "TMT",
-        "CountryName": "Turkmenistan"
+        "CountryName": "Turkmenistan",
+        "FlagCode" : "TM"
     },
     {
         "id": 140,
         "CurrencyName": "Tunisian Dinar",
         "CurrencyCode": "TND",
-        "CountryName": "Tunisia"
+        "CountryName": "Tunisia",
+        "FlagCode" : "TN"
     },
     {
         "id": 141,
         "CurrencyName": "Tongan Paʻanga",
         "CurrencyCode": "TOP",
-        "CountryName": "Tonga"
+        "CountryName": "Tonga",
+        "FlagCode" : "TO"
     },
     {
         "id": 142,
         "CurrencyName": "Turkish Lira",
         "CurrencyCode": "TRY",
-        "CountryName": "Turkey"
+        "CountryName": "Turkey",
+        "FlagCode" : "TR"
     },
     {
         "id": 143,
         "CurrencyName": "Trinidad and Tobago Dollar",
         "CurrencyCode": "TTD",
-        "CountryName": "Trinidad and Tobago"
+        "CountryName": "Trinidad and Tobago",
+        "FlagCode" : "TT"
     },
     {
         "id": 144,
         "CurrencyName": "New Taiwan Dollar",
         "CurrencyCode": "TWD",
-        "CountryName": "Taiwan"
+        "CountryName": "Taiwan",
+        "FlagCode" : "TW"
     },
     {
         "id": 145,
         "CurrencyName": "Tanzanian Shilling",
         "CurrencyCode": "TZS",
-        "CountryName": "Tanzania"
+        "CountryName": "Tanzania",
+        "FlagCode" : "TZ"
     },
     {
         "id": 146,
         "CurrencyName": "Ukrainian Hryvnia",
         "CurrencyCode": "UAH",
-        "CountryName": "Ukraine"
+        "CountryName": "Ukraine",
+        "FlagCode" : "UA"
     },
     {
         "id": 147,
         "CurrencyName": "Ugandan Shilling",
         "CurrencyCode": "UGX",
-        "CountryName": "Uganda"
+        "CountryName": "Uganda",
+        "FlagCode" : "UG"
     },
     {
         "id": 148,
         "CurrencyName": "United States Dollar",
         "CurrencyCode": "USD",
-        "CountryName": "United States"
+        "CountryName": "United States",
+        "FlagCode" : "US"
     },
     {
         "id": 151,
         "CurrencyName": "Uruguayan Peso",
         "CurrencyCode": "UYU",
-        "CountryName": "Uruguay"
+        "CountryName": "Uruguay",
+        "FlagCode" : "UY"
     },
     {
         "id": 153,
         "CurrencyName": "Uzbekistan Som",
         "CurrencyCode": "UZS",
-        "CountryName": "Uzbekistan"
+        "CountryName": "Uzbekistan",
+        "FlagCode" : "UZ"
     },
     {
         "id": 154,
         "CurrencyName": "Venezuelan bolívar Soberano",
         "CurrencyCode": "VES",
-        "CountryName": "Venezuela"
+        "CountryName": "Venezuela",
+        "FlagCode" : "VE"
     },
     {
         "id": 155,
         "CurrencyName": "Vietnamese Đồng",
         "CurrencyCode": "VND",
-        "CountryName": "Vietnam"
+        "CountryName": "Vietnam",
+        "FlagCode" : "VN"
     },
     {
         "id": 156,
         "CurrencyName": "Vanuatu Vatu",
         "CurrencyCode": "VUV",
-        "CountryName": "Vanuatu"
+        "CountryName": "Vanuatu",
+        "FlagCode" : "VU"
     },
     {
         "id": 157,
         "CurrencyName": "Samoan Tala",
         "CurrencyCode": "WST",
-        "CountryName": "Samoa"
+        "CountryName": "Samoa",
+        "FlagCode" : "WS"
     },
     {
         "id": 158,
         "CurrencyName": "CFA franc BEAC",
         "CurrencyCode": "XAF",
-        "CountryName": "Cameroon"
+        "CountryName": "Cameroon",
+        "FlagCode" : "CM"
     },
     {
         "id": 165,
         "CurrencyName": "East Caribbean Dollar",
         "CurrencyCode": "XCD",
-        "CountryName": "Anguilla"
+        "CountryName": "Anguilla",
+        "FlagCode" : "AI"
     },
     {
         "id": 167,
         "CurrencyName": "CFA franc BCEAO",
         "CurrencyCode": "XOF",
-        "CountryName": "Benin"
+        "CountryName": "Benin",
+        "FlagCode" : "BJ"
     },
     {
         "id": 169,
         "CurrencyName": "CFP franc (franc Pacifique)",
         "CurrencyCode": "XPF",
-        "CountryName": "French Polynesia"
+        "CountryName": "French Polynesia",
+        "FlagCode" : "PF"
     },
     {
         "id": 173,
         "CurrencyName": "Yemeni Rial",
         "CurrencyCode": "YER",
-        "CountryName": "Yemen"
+        "CountryName": "Yemen",
+        "FlagCode" : "YE"
     },
     {
         "id": 174,
         "CurrencyName": "South African Rand",
         "CurrencyCode": "ZAR",
-        "CountryName": "Lesotho"
+        "CountryName": "Lesotho",
+        "FlagCode" : "LS"
     },
     {
         "id": 175,
         "CurrencyName": "Zambian Kwacha",
         "CurrencyCode": "ZMW",
-        "CountryName": "Zambia"
+        "CountryName": "Zambia",
+        "FlagCode" : "ZM"
     },
     {
         "id": 176,
         "CurrencyName": "Zimbabwean Dollar",
         "CurrencyCode": "ZWL",
-        "CountryName": "Zimbabwe"
+        "CountryName": "Zimbabwe",
+        "FlagCode" : "ZW"
     }
 ]

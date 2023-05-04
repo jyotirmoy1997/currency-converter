@@ -9,13 +9,13 @@ const Footer = () => {
             <p>Designed and Developed by Jyotirmoy Das 
                 <span>
                     <a href="https://github.com/jyotirmoy1997" target="_blank">
-                        <img src={gitHubLogo} alt="" srcset="" height="17px" width="17px"/>
+                        <img src={gitHubLogo} height="17px" width="17px"/>
                     </a> 
                     <a href="https://twitter.com/DosJoehan?t=lCmtkWL2P5e7dh3v6P-aSw&s=08" target="_blank">
-                        <img src={twitterLogo} alt="" srcset="" height="17px" width="17px"/>
+                        <img src={twitterLogo} height="17px" width="17px"/>
                     </a>
                     <a href="www.linkedin.com/in/jyotirmoy-das" target="_blank">
-                        <img src={linkedinLogo} alt="" srcset="" height="17px" width="20px"/>
+                        <img src={linkedinLogo} height="17px" width="20px"/>
                     </a>
                 </span>
                 
