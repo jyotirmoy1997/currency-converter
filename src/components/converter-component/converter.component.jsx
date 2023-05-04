@@ -50,11 +50,11 @@ const Converter = () => {
             }
           };
           
-          console.log(process.env.REACT_APP_API_KEY, process.env.REACT_APP_API_HOST)
+        //   console.log(process.env.REACT_APP_API_KEY, process.env.REACT_APP_API_HOST)
 
           try {
               const response = await axios.request(options);
-              console.log(response)
+            //   console.log(response)
               updatecurrencyNow(response.data.rates)
               let dateNow = response.data.time_last_update_utc
               updateDate(dateNow);
